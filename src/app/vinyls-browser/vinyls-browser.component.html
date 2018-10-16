@@ -1,6 +1,11 @@
-<p>
-  vinyl-browser works ! that's cool
-</p>
-<ul>
-  <li *ngFor="let band of bands$ | async">{{band.name}}</li>
-</ul>
+<div class="main">
+  <div *ngFor="let band of bands$ | async" class="band">
+    <div class="band-title"><h2>{{band.name}}</h2></div>
+    <div class="band-releases">
+      <div *ngFor="let release of band.releases" class="release">
+        <img src="./assets/img/vinyl{{band.id}}{{release.id}}.jpg"/>
+        <span>{{release.name}} ({{release.year}})</span>
+      </div>
+    </div>
+  </div>
+</div>
