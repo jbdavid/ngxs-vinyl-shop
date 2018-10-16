@@ -1,0 +1,22 @@
+{
+  "catalog" : [
+    {"id": 1, "name": "Thee oh sees", "releases": [
+      {"id": 1, "name": "Carrion Crawler/ The Dream", "year": 2011},
+      {"id": 2, "name": "Smote Reverser", "year": 2018}
+
+    ]},
+    {"id": 2, "name": "Holy Wave", "releases": [
+      {"id": 1, "name": "Freaks of nurture", "year": 2016},
+      {"id": 2, "name": "Adult fear", "year": 2018}
+
+    ]},
+    {"id": 3, "name": "The Brian Jonestown Massacre", "releases": [
+      {"id": 1, "name": "Thank God For Mental Illness", "year": 1996},
+      {"id": 2, "name": "Strung Out In Heaven", "year": 1998},
+      {"id": 1, "name": "Bravery, Repetition and Noise", "year": 2001},
+      {"id": 2, "name": "And This Is Our Music", "year": 2003 },
+      {"id": 1, "name": "Revelation", "year": 2014},
+      {"id": 2, "name": "Mini Album Thingy Wingy", "year": 2015}
+    ]}
+  ]
+}
